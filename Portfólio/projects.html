@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<div class="invisibleButtonDiv"id="closeB" onclick="closediv()"> </div>
+
+   
+   
+        <div class="zoom" id="zoomH" onclick="closediv()">
+        <div class="zoomImage">
+            <img id="indihorizontal" src="">
+        </div>
+        
+       <!--  <div class="zoomTextDiv"></div>--> 
+    </div>
+
+
+
+
+    <div class="zoom" id="zoomV" onclick="closediv()">
+        <div class="zoomImage">
+            <img id="indivertical" src="">
+
+
+        </div>
+        
+      <!-- <div class="zoomTextDiv"><p class="zoomText" id="descrições"> sikeeeeeee</p></div>*/--> 
+    </div>
+
+
+
+    
+    <div>
+        <a href="index.html">
+            <div class="divb">
+                <p class="text">Home</p>
+            </div>
+        </a>
+        <a href="projects.html">
+            <div class="diva">
+                <p class="text">Projects</p>
+            </div>
+        </a>
+        <a href="about.html">
+            <div class="divb">
+                <p class="text">Contact</p>
+            </div>
+        </a>
+
+
+       
+
+        <div class="topbuttondiv">
+                
+            <a  href="projects.html" class="textMenu" style="text-align: center; margin-top: 5px;line-height:60px;">Up</a>
+   
+        </div>
+
+
+
+        <div class="divAnimationp2">
+            <div class="divMenu">
+                <nav class="nav ul li a">
+                    <ul class="textMenu" ; style="line-height:60px;">
+
+                        <li><a class="a" href="#digitalImages">Digital Image</a></li>
+                    </ul>
+                </nav>
+                <nav class="nav ul li a">
+                    <ul class="textMenu" ; style="line-height:60px;">
+                    <li><a class="a" href="#animations">2D Animation</a></li>
+                </ul>
+            </nav>
+                
+            </div>
+
+
+            <script
+            src="https://code.jquery.com/jquery-3.6.0.js"></script>
+            <script type="text/javascript">
+                $(document).on('click','a', function(){
+                    $(this).addClass('active');
+                })
+            </script>
+
+
+
+
+
+            <div class="divAD">
+
+                <h1 id="digitalImages"class="headingTextProjc1">Digital Image</h1>
+                <p></p>
+                <div class="line"></div>
+                <h2 class="headingTextProjc2">Random Character</h2>
+                <a onclick="ShowH('1')"><img class="imageProjectsHorizontal"
+                        src="PortfolioMaterial\personagem aleatoria atack.jpg" style="margin-left: 250px;">
+                    </a>
+                <a onclick="ShowV('2')"><img class="imageProjectsPortrait" src="PortfolioMaterial\Personagem aleatoria.png"
+                    style="margin-left: 250px;">
+                </a>
+                <p></p>
+                <div class="line"></div>
+                <h1 class="headingTextProjc2">Bambuu</h1>
+                <a onclick="ShowH('3')"><img class="imageProjectsHorizontal" src="PortfolioMaterial/BambuH.jpg" style="margin-left: 250px;"></a>
+                <a onclick="ShowV('4')"><img class="imageProjectsPortrait" src="PortfolioMaterial/Bambu.jpg" style="margin-left: 250px;"></a>
+                <p></p>
+                <div class="line"></div>
+                <h1 class="headingTextProjc2">Rox</h1>
+                <a onclick="ShowH('5')"><img class="imageProjectsHorizontal" src="PortfolioMaterial/Anotação 2020-06-21 223028.png" style="margin-left: 250px;"></a>
+                <a onclick="ShowV('6')"><img class="imageProjectsPortrait" src="PortfolioMaterial/Sem Título-1.png" style="margin-left: 250px;"></a>
+                <p></p>
+                <div class="line"></div>
+                <h1 class="headingTextProjc2">Rings</h1>
+
+                <a onclick="ShowV('7')"><img class="imageProjectsPortraitRings" src="PortfolioMaterial\Captura de ecrã 2021-02-24 232638.png"
+                    style="margin-left: 375px;"></a>
+                    <a onclick="ShowV('8')"><img class="imageProjectsPortraitRings" src="PortfolioMaterial\Captura de ecrã 2021-03-06 165636.png"
+                    style="margin-left: 380px;"></a>
+                <p></p>
+                <div class="line"></div>
+                <h1 class="headingTextProjc2">Cartazes</h1>
+
+                <a onclick="ShowV('9')"><img class="imageProjectsPortrait" src="PortfolioMaterial\FinalPrancheta 1.png"
+                    style="margin-left: 400px;"></a>
+                    <a onclick="ShowV('10')"><img class="imageProjectsPortrait" src="PortfolioMaterial\Cartaz FallIN 2.png"
+                    style="margin-left: 450px;"></a>
+
+                <p></p>
+                <div class="line"></div>
+                <h1 class="headingTextProjc2">Retratos</h1>
+
+                <a onclick="ShowV('11')"><img class="imageProjectsPortrait" src="PortfolioMaterial\pixal art 2.jpg" style="margin-left: 750px;"></a>
+
+
+
+
+
+
+                <p></p>
+                <div class="line" style="height: 4px;"></div>
+                <h1 id="animations"class="headingTextProjc1">Digital Animation 2D</h1>
+                <p></p>
+                <div class="line"></div>
+                <h1 class="headingTextProjc2">Bambuu Animations in Unity</h1>
+                <div class="line" style="background:none; height: 40px;">
+                    <h2 class="projctsDescripText" style="margin-left:500px;">Idle</h2>
+                    <h2 class="projctsDescripText" style="margin-left:1000px;">Walking</h2>
+                </div>
+                <a onclick="ShowH('12')"><img class="imageProjectsHorizontal" src="PortfolioMaterial\IdleBambu.gif" style="margin-left: 250px;"></a>
+                <a onclick="ShowH('13')"><img class="imageProjectsHorizontal" src="PortfolioMaterial\walkingBambu.gif"
+                    style="margin-left: 200px;"></a>
+                <p></p>
+                <div class="line" style="background:none; height: 40px;">
+                    <h2 class="projctsDescripText" style="margin-left:500px;">Waiting</h2>
+                    <h2 class="projctsDescripText" style="margin-left:1000px;">Attack</h2>
+                </div>
+                <a onclick="ShowH('14')"><img class="imageProjectsHorizontal" src="PortfolioMaterial\WaitingBambu.gif"
+                    style="margin-left: 250px;"></a>
+                    <a onclick="ShowH('15')"><img class="imageProjectsHorizontal" src="PortfolioMaterial\AtaqueBambu.gif"
+                    style="margin-left: 200px;"></a>
+                <p></p>
+                <div class="line"></div>
+                <h1 class="headingTextProjc2">Rox scene Animation on After Effects</h1>
+                <p></p>
+                <!--perguntar sobre o video em after effects/alterar o div laranja do menu com o slide da pagina/escrever na mesma linhas as descrições -->
+                <a onclick="ShowH('16')"><video width="320" height="240" controls class="imageProjectsHorizontal" style="margin-left: 600px;">  
+                    <source src="PortfolioMaterial\Project Name.mp4" type="video/mp4">
+                </video>
+            </a>
+                <div class="line"></div>
+                <h1 class="headingTextProjc2">Rings in Unity</h1>
+                <p></p>
+                <a onclick="ShowH('17')"><img class="imageProjectsHorizontal" src="PortfolioMaterial\runningUnity.gif"
+                    style="margin-left: 600px;"></a>
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+    <script>
+        var descriçõesT=document.getElementById("descrições");
+        var closer =document.getElementById("closeB");
+        var jenifer = document.getElementById("zoomH");
+        var leonardo = document.getElementById("indihorizontal");
+        var gonçalo=document.getElementById("indivertical");
+        var idalina=document.getElementById("zoomV")
+        var navbar=document.querySelector("divMenu").querySelectorAll("a");
+
+        array.forEach(element => {
+            element.addEventListener("click",function(){
+                navbar.forEach(nav=>nav.classList.remove("active"))
+this.classList.add("active");
+
+            })
+        });
+
+
+
+        function ShowH(ines) {
+            closer.style.display='block';
+            jenifer.style.display = 'block';
+            if (ines == '1') {
+                var img = "PortfolioMaterial/personagem aleatoria atack.jpg";
+                leonardo.src = img;
+                
+            }
+           
+            if (ines == '3') {
+                var img = "PortfolioMaterial/BambuH.jpg";
+                leonardo.src = img;
+
+            }
+         
+            if (ines == '5') {
+                var img = "PortfolioMaterial/Anotação 2020-06-21 223028.png";
+                leonardo.src = img;
+            }
+           
+            }
+            if (ines == '12') {
+                var img = "PortfolioMaterial/IdleBambu.gif";
+                leonardo.src = img;
+            }
+            if (ines == '13') {
+                var img = "PortfolioMaterial/walkingBambu.gif";
+                leonardo.src = img;
+            }
+            if (ines == '14') {
+                var gif = "PortfolioMaterial/WaitingBambu.gif";
+                leonardo.src = gif;
+            }
+            if (ines == '15') {
+                var img = "PortfolioMaterial/AtaqueBambu.gif";
+                leonardo.src = img;
+            }
+            if (ines == '16') {
+                var img = "PortfolioMaterial/Project Name.mp4";
+                leonardo.src = img;
+            }
+            if (ines == '17') {
+                var img = "PortfolioMaterial/runningUnity.gif";
+                leonardo.src = img;
+            }
+            function ShowV(ines) {
+                closer.style.display='block';
+                idalina.style.display = 'block';
+             if (ines == '2') {
+                var img = "PortfolioMaterial/Personagem aleatoria.png";
+                gonçalo.src = img;
+                descriçõesT.text("Funcionou");
+            }
+            if (ines == '4') {
+                var img = "PortfolioMaterial/Bambu.jpg";
+                gonçalo.src = img;
+            }
+            if (ines == '6') {
+                var img = "PortfolioMaterial/Sem Título-1.png";
+                gonçalo.src = img;
+            }
+            if (ines == '7') {
+                var img = "PortfolioMaterial/Captura de ecrã 2021-02-24 232638.png";
+                gonçalo.src = img;
+            }
+            if (ines == '8') {
+                var img = "PortfolioMaterial/Captura de ecrã 2021-03-06 165636.png";
+                gonçalo.src = img;
+            }
+            if (ines == '9') {
+                var img = "PortfolioMaterial/FinalPrancheta 1.png";
+                gonçalo.src = img;
+            }
+            if (ines == '10') {
+                var img = "PortfolioMaterial/Cartaz FallIN 2.png";
+                gonçalo.src = img;
+            }
+            if (ines == '11') {
+                var img = "PortfolioMaterial/pixal art 2.jpg";
+                gonçalo.src = img;
+            }
+        }
+
+        function closediv(){
+            console.log("entrou");
+            document.getElementById("closeB").style.display='none';
+            document.getElementById("closeB").style.display='none';
+            document.getElementById("zoomH").style.display='none';
+            document.getElementById("zoomV").style.display='none';
+
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>

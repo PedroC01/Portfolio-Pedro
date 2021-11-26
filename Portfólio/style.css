@@ -1,0 +1,492 @@
+body {
+    background-color: rgb(75, 75, 75);
+    background-position: center;
+    z-index: -3;
+   }
+
+  *{
+      padding: 0;
+       margin:0px;
+   }
+
+   div {  
+    width:100%;
+    height:15%;
+    background-color: rgb(0, 0, 0);
+    
+    display: inline-block;
+    padding: 0;   
+    z-index: -1;  
+    }
+
+    .diva{
+        margin-left: 340px;
+        width: 150px;
+        height: 70px;
+        background-color: #F56F00;
+        
+    }
+    .diva2{
+        margin-left: 0px;
+        width: 100%;
+        height: 70px;
+        background-color: #F56F00;
+        
+    }
+    .divb{
+        margin-left: 310px;
+        width: 150px;
+        height: 70px;
+        background-color: rgb(0, 0, 0);
+    }
+    .divAnimation{
+     
+        display: block; 
+        
+        position: absolute;
+        margin-left:300px;
+        max-width: 100%;
+        max-height: 90.2%;
+        background-color: #007272;
+        animation-name: divAnimationp1;
+        animation-duration:2s;
+        animation-fill-mode: forwards;
+        z-index: -2;
+    }
+    .divAnimationp2{
+     
+        display: block; 
+        
+        position: absolute;
+        margin-left:715px;
+        max-width: 100%;
+        max-height: 200%;
+        background-color:#007272	;
+        animation-name: divAnimationp2;
+        animation-duration:2s;
+        animation-fill-mode: forwards;
+        z-index: -2;
+        
+    }
+    .divAnimationp3{
+     
+        display: block; 
+        
+        position: absolute;
+        margin-left:1130px;
+        max-width: 100%;
+        max-height: 90.2%;
+        background-color: #007272;
+        animation-name: divAnimationp3;
+        animation-duration:2s;
+        animation-fill-mode: forwards;
+        z-index: -2;
+    }
+.icons{
+    margin-left: 90px;
+    margin-top: 50px;
+    position: absolute;
+    
+    animation-name: textAnimation;
+        animation-duration:2.5s;
+        width: 400px;
+        height: 400px;
+background-color: #0072725b;
+}
+    /*Menu a esquerda na pagina de projetos*/
+   .divMenu{
+       position: fixed;
+    display: inline-block;
+    margin-top: 0%;
+    margin-left:0%;
+    width: 15%;
+    height: 50%; 
+    background-color:black;
+    z-index: 1;
+    animation-name: textAnimation;
+        animation-duration:2.5s;
+    /*width: 100%;
+    height: 8%;
+    background-color:darkmagenta;*/
+    
+   }
+   .divBox{
+    
+    margin-top: 150px;
+    width: 100%;
+    height: 400px;
+    
+    background-color:black;
+
+  
+            
+   }
+    .text{
+        margin-top:10px;
+        margin-left:10px;
+        margin-right: 10px;
+        text-align: center;
+        color: #63CDCD;
+        font-size: 40px;
+        text-decoration: none;
+
+            
+    }
+    .textMenu{
+        
+        margin-top:10px;
+        margin-left:10px;
+        margin-right: 10px;
+        text-align: center;
+        color: #63CDCD;
+        font-size: 20px;
+        animation-name: textAnimation;
+        animation-duration:2.5s;
+        text-decoration: none;
+            
+    }
+    .homeText{
+       
+        margin-left: 70px;
+        text-align: Left;
+        animation-name: textAnimation;
+        animation-duration:2.5s;
+       
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        text-decoration: none;
+    }
+    .contactText{
+       
+        margin-left: 70px;
+        text-align: Left;
+        animation-name: textAnimation;
+        animation-duration:2.5s;
+       
+        color: rgb(0, 0, 0);
+        font-size: 40px;
+        text-decoration: none;
+    }
+    .homeText2{
+       
+        margin-left: 70px;
+        text-align: Left;
+        animation-name: textAnimation;
+        animation-duration:2.5s;
+       
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        text-decoration: none;
+    }
+    .homeDivWorks{
+        
+        position: absolute;
+        display: inline-block;
+        margin-top: -180px;
+        width: 300px;
+        margin-left: 75%;
+        height: 390px;
+        z-index: 2;
+        animation-name: textAnimation;
+        animation-duration:2.5s;
+       background-color:  blue;
+    }
+    .imagehome{
+        margin-top:0 px;
+     width: 100%;
+     height: 100%;
+     animation-name: textAnimation;
+     animation-duration:2.5s;
+    }
+    .headingTextProjc1{
+        margin-top:10px;
+        margin-left:200px;
+        margin-right: 10px;
+        text-align: center;
+        color: #F56F00;
+        font-size: 60px;
+        text-decoration: none;
+        animation-name: textAnimation;
+        animation-duration:2.5s;
+        
+    }
+    .headingTextProjc2{
+        margin-top:10px;
+        margin-left:200px;
+        margin-right: 10px;
+        text-align: center;
+        color: black;
+        font-size: 40px;
+        text-decoration: none;
+        animation-name: textAnimation;
+        animation-duration:2.5s;
+        
+    }
+    .projctsDescripText{
+        
+        display: inline-block; 
+
+        margin-left:200px;
+        margin-right: 10px;
+    
+        color: black;
+        font-size: 30px;
+        text-decoration: none;
+        animation-name: textAnimation;
+        animation-duration:2.5s;
+        
+    }
+    
+    .divAD{
+        align-items: center;
+        position: absolute;
+        display: inline-block;
+        width: 100%;
+        margin-left:0%;
+        height: 650%;
+        background-color:  #007272;
+       
+    }
+   
+    @keyframes divAnimationp1{
+        
+        0%{
+            height: 0%; width: 5%;margin-left: 375px;
+        }
+        50%{
+            height: 100%; width: 5%;margin-left: 375px;
+        }
+        100%{
+            height: 100%; width: 100%;margin-left: 0px;
+        }
+   
+       
+    }
+    @keyframes divAnimationp2{
+        
+        0%{
+            height: 0%; width: 5%;margin-left: 840px;
+        }
+        50%{
+            height: 100%; width: 5%;margin-left: 840px;
+        }
+        100%{
+            height: 100%; width: 100%;margin-left: 0px;
+        }
+   
+       
+    }
+    @keyframes divAnimationp3{
+        
+        0%{
+            height: 0%; width: 5%;margin-left: 1300px;
+        }
+        50%{
+            height: 100%; width: 5%;margin-left: 1300px;
+        }
+        100%{
+            height: 100%; width: 100%;margin-left: 0px;
+        }
+   
+       
+    }@keyframes textAnimation{
+        
+        0%{
+            opacity: 0%;
+        }
+        85%{
+                opacity: 0%;
+        }
+        100%{
+           opacity:100% ;
+        }
+    
+    }
+    nav ul li a{
+       color:#63CDCD;
+       text-decoration: none;
+    }
+    .a{
+        margin-left: 0px;
+        width: 100%;
+        height: 70px;
+        animation-name: textAnimation;
+        animation-duration:2.5s;
+        background-color: #f56e00; 
+    }
+    .topbuttondiv{
+        position: fixed;
+        display: block;
+        margin-left:0px;
+        margin-top: 400px;
+        width: 130px;
+        height: 70px;
+        animation-name: textAnimation;
+        animation-duration:2.5s;
+        background-color: #f56e00; 
+        z-index:2;
+    }
+    .toplist ul li a:hover:not(.active) {
+        margin-top:10px;
+        margin-left:10px;
+        margin-right: 10px;
+        text-align: center;
+        color: #63CDCD;
+        font-size: 20px;
+        animation-name: textAnimation;
+        animation-duration:2.5s;
+        text-decoration: none;
+        }
+        .toplist ul li a:hover{
+            margin-top:10px;
+            margin-left:10px;
+            margin-right: 10px;
+            text-align: center;
+            color: #63CDCD;
+            font-size: 20px;
+            animation-name: textAnimation;
+            animation-duration:2.5s;
+            text-decoration: none;
+        }
+
+   
+    .imageProjectsPortrait{
+      
+        display: inline-block;
+        margin-top: 30px;
+        margin-left: 30px;
+     width: 200px;
+     height: 300px;
+     z-index:2;
+     animation-name: textAnimation;
+     animation-duration:2.5s;
+     border-width:2px;
+     border-style:solid;
+     border-color:black;
+    }
+    .imageProjectsPortraitRings{
+      
+        display: inline-block;
+        margin-top: 30px;
+        margin-left: 30px;
+     width: 260px;
+     height: 300px;
+     z-index:2;
+     animation-name: textAnimation;
+     animation-duration:2.5s;
+     border-width:2px;
+border-style:solid;
+border-color:black;
+    }
+    .imageProjectsHorizontal{
+        
+        display: inline-block;
+        margin-top: 30px;
+        margin-left: 250px;
+     width: 500px;
+     height: 300px;
+     z-index:2;  
+     animation-name: textAnimation;
+     animation-duration:2.5s;
+     border-width:2px;
+     border-style:solid;
+     border-color:black;
+    }
+    
+    .zoom{
+        position: fixed;
+        display: none;
+        margin-left: 350px;
+        margin-top: 90px;
+        width: 1050px;
+        height: 620px;
+        border-radius: 2%;
+        box-shadow:10px 10px 5px rgba(0, 0, 0, 0.452);
+        background-color: rgb(238, 135, 0);
+        animation-name: textAnimation;
+     animation-duration:0.5s;
+     z-index: 4;
+    }
+    .zoomImage{
+        position: absolute;
+        display: inline-block;
+        margin-left: 15px;
+        margin-top: 15px;
+        width: 55%;
+        height: 95%;
+       /* animation-name: textAnimation;
+     animation-duration:0.5s;*/
+     background-color: rgb(238, 135, 0);
+   
+    
+    }
+    #indihorizontal{
+        margin-left: 35%;
+        margin-top: 100px;
+        width: 100% ;
+        height: 70%;
+        border-width:2px;
+     border-style:solid;
+     border-color:black;
+    }
+    #indivertical{
+        margin-left: 50%;
+        width: 70% ;
+        height: 100%;
+        border-width:2px;
+     border-style:solid;
+     border-color:black;
+            }
+    .zoomTextDiv{
+        position: relative;
+        display: inline-block;
+       margin-left: 620px;
+        margin-top: 15px;
+        width: 39%;
+        height: 95%;
+        /*animation-name: textAnimation;
+     animation-duration:0.5s;*/
+   background-color: rgb(0, 0, 0);
+
+    }
+    .zoomText{
+        text-align: center;
+        animation-name: textAnimation;
+        animation-duration:0.5s;
+       
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        text-decoration: none;
+        z-index: 5;
+    }
+
+    .line{
+        display: inline-block;
+        color: black;
+        margin-top: 30px;
+        height: 2px;
+        width: 100%;
+        animation-name: textAnimation;
+        animation-duration:2.5s;
+    }
+    .lineW{
+        display: inline-block;
+        color: rgb(238, 135, 0);
+        margin-top: 2px;
+        height: 2px;
+        width: 100%;
+        animation-name: textAnimation;
+        animation-duration:2.5s;
+        z-index: 6;
+    }
+    .invisibleButtonDiv{
+        position: fixed;
+        display: none;
+        color: rgba(0, 0, 0, 0.021);
+        width: 100%;
+        height: 200%;
+        z-index: 2;
+        opacity: 30%;
+    }
+      
+   
